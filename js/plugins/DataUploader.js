@@ -8,7 +8,7 @@
  * @param Google Script URL
  * @desc Google Apps Script 的部署網址（必須是 /exec 結尾）
  * @type string
- * @default https://script.google.com/macros/s/AKfycbxCNE2OGL0RWX8vjFEJwaemGMu8ACh3ApnciMzJwDJy7KiOeW2idYXMMrv16YRFyAXtHg/exec
+ * @default https://script.google.com/macros/s/AKfycbzGEOOZsa-p4hAMB75CYGFkfgu7tBEZ9yeOUzBL8sR4Y70bGpOAv4RDztoozvOJ9Ze78Q/exec
  *
  * @param Condition Variable
  * @type variable
@@ -58,6 +58,18 @@
  * @type variable
  * @default 12
  *
+ * @param Rewardnum Variable
+ * @type variable
+ * @default 13
+ *
+ * @param BLMnum Variable
+ * @type variable
+ * @default 14
+ *
+ * @param Accountnum Variable
+ * @type variable
+ * @default 15
+ *
  * @command SubmitData
  * @text 上傳資料到 Google Sheets
  * @desc 將受試者資料（條件、決策等）上傳到 Google Sheets
@@ -83,6 +95,9 @@
     const D6 = Number(params['Decision6 Variable'] || 10);
     const PHONE_VAR = Number(params['Phone Variable'] || 11);
     const BIRTHDAY_VAR = Number(params['Birthday Variable'] || 12);
+    const REWARDNUM_VAR = Number(params['Rewardnum Variable'] || 13);
+    const BLMNUM_VAR = Number(params['BLMnum Variable'] || 14);
+    const ACCOUNTNUM_VAR = Number(params['Accountnum Variable'] || 15);
 
     window._gameStartTime = window._gameStartTime || Date.now();
 
@@ -112,6 +127,9 @@
             decision4: $gameVariables.value(D4),
             decision5: $gameVariables.value(D5),
             decision6: $gameVariables.value(D6),
+            rewardNum: $gameVariables.value(REWARDNUM_VAR),
+            blmNum: $gameVariables.value(BLMNUM_VAR),
+            accountNum: $gameVariables.value(ACCOUNTNUM_VAR),
             playTime: playTimeSeconds
         };
 
