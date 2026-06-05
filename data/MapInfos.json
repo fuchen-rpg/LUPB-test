@@ -1,11 +1,11 @@
 [
 null,
-{"id":1,"expanded":false,"name":"公司走廊","order":7,"parentId":0,"scrollX":757,"scrollY":398,"quick":false},
+{"id":1,"expanded":false,"name":"公司走廊","order":7,"parentId":0,"scrollX":757,"scrollY":390,"quick":false},
 {"id":2,"expanded":false,"name":"操作畫面","order":1,"parentId":0,"scrollX":619,"scrollY":398,"quick":false},
-{"id":3,"expanded":false,"name":"小遊戲畫面","order":6,"parentId":0,"scrollX":619,"scrollY":398,"quick":false},
-{"id":4,"expanded":false,"name":"辦公室內部","order":3,"parentId":0,"scrollX":627,"scrollY":490,"quick":false},
+{"id":3,"expanded":false,"name":"小遊戲畫面","order":6,"parentId":0,"scrollX":611,"scrollY":390,"quick":false},
+{"id":4,"expanded":false,"name":"辦公室內部","order":3,"parentId":0,"scrollX":619,"scrollY":398,"quick":false},
 {"id":5,"expanded":false,"name":"企業總部外觀","order":2,"parentId":0,"scrollX":619,"scrollY":1346,"quick":false},
 null,
-{"id":7,"expanded":false,"name":"CEO辦公室","order":4,"parentId":0,"scrollX":619,"scrollY":398,"quick":false},
-{"id":8,"expanded":false,"name":"會議室","order":5,"parentId":0,"scrollX":627,"scrollY":418,"quick":false}
+{"id":7,"expanded":false,"name":"CEO辦公室","order":4,"parentId":0,"scrollX":619,"scrollY":382,"quick":false},
+{"id":8,"expanded":false,"name":"會議室","order":5,"parentId":0,"scrollX":619,"scrollY":398,"quick":false}
 ]
